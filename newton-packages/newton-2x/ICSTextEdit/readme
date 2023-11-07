@@ -1,0 +1,67 @@
+The ICS Text Editor for the IOBox
+by Dan Rowley
+Copyright (C) 1999 Innovative Computer Solutions
+All Rights Reserved
+
+
+The ICS Text Editor is an alternate viewer/editor for the
+Newton 2.0 In/Out box (IOBox) which can be used to view/edit
+text items like email.  It's primary advantage over the 
+standard editor is that it can handle arbitrarily large
+documents without much difficulty (and without running out
+of heap), and should be able to view large text documents
+much more quickly than the standard viewer or other available
+viewers.  
+
+The ICS Text Editor is pretty much a release of a product
+that was never finished, so there are rough edges and 
+behaviors which could be considered 'sub-optimal.'  Rather
+than just shelve the project altogether, we decided to release
+it as unsupported freeware.
+
+DISCLAIMER OF WARRANTY -
+	This software is provided AS-IS without any warranty of any 
+	kind.  No warranties are made or implied regarding
+	merchantability or fitness to a particular purpose.
+	
+This software is FREEWARE and provided as a gift to the 
+newton community.  As such, it is UNSUPPORTED software -
+no updates are anticipated, and no technical support of
+any kind is available.
+
+If you are a developer and would like to take over development
+of the ICS Text Editor, please contact the author, Dan Rowley,
+directly at dan@newts.com.  We would prefer that the editor
+remained free, and must retain ICS credit and attribution.
+
+To use the ICS Text Editor, simply install it to your Newton
+using the usual methods (NCU, MBU, Newton Package Installer,
+X-Port, etc).  Next time you view an eligible item in the 
+InBox or Outbox, you can choose the ICS Text Editor from the
+"Show" popup  menu.  If there is no "show" menu or the ICS 
+Text Editor does not appear in the menu, then that item is
+not an eligible item.  When viewing in the InBox, you are 
+usually not permitted to edit the text, but you can select
+text (for an email reply, for instance).  When editing large
+documents, you will notice a pause when scrolling to another
+page if you have made a change - this is the editor saving
+your changes and is normal.  This pause will tend to increase
+with the size of the document, but will only occur if you have
+actually made a change to the current page.
+
+The scroll bar and scroll arrows at the right of the screen
+operate mostly as you would expect them to.  The scroll bar is
+proportional when idle, but not when you are actually dragging
+it.  You will notice that when you drag the scrollbar, the
+text is not scrolled line-by-line, but can actually begin in
+the middle of the line.  This is a limitation of the current
+scrolling mechanism.  Tapping on the up or down arrows will 
+scroll by approximately one page-full of text.  You can not
+drag-select beyond the edge of the current page, and scrolling
+will cause the current selection to be cancelled.  Thus, there
+is no way to select more than one page-full of text.
+
+
+
+
+

@@ -1,0 +1,200 @@
+What to Doª
+ToDo enhancement for Newton 2.0
+by Dan Rowley <dan@newts.com>
+Copyright 1996, Innovative Computer Solutions
+
+Version: 1.0
+Released: 10/20/96
+
+***What is What to Do?
+    
+What to Do is an enhancement for the built-in ToDo manager which provides
+several powerful new features:
+    *) The ability to add notes to a ToDo item.
+    *) The ability to add several ToDo items in succession, without having
+to wade through the "new" menu every time.
+    *) The ability to quickly add ToDo items, without having to launch the
+Dates app first, either by interpreting selected text, or by entering data
+into a quick data entry slip.
+
+
+***ABOUT SHAREWARE
+
+What to Do is SHAREWARE.  You have fourteen days to try What to Do and
+determine if it's right for you.  If you want to keep it, you need to
+register it.  The registration fee is $15.  Upgrades to new versions of
+What to Do are free to registered users.  You can register What to Do
+several ways-
+
+    1 - Via the Kagi Shareware registration service - you can register
+online by visiting our web site at <http://www.newts.com/>.
+    2 - On Compuserve via SWREG (GO SWREG), #12938.
+    3 - By sending a check for $15 to Innovative Computer Solutions at
+23005 North 21st Way; Phoenix, Arizona 85024-7513.
+
+    When we receive your registration, we will send you a code to unlock
+your copy of What to Do.  To unlock your copy of What to Do, tap the
+"Register" button on the What to Do prefs screen and enter your name and
+registration code.
+
+
+***Installing What to Do
+
+Install What to Do as you would any other Newton software, by downloading
+it to your device using the Newton Backup Utility, Newton Package
+Installer, X-Port, or other package installation utility.  Before using
+What to Do, you should launch the application (by tapping on the icon in
+the extras drawer) to set your preferences.
+
+
+***What to Do preferences
+
+What to Do has three major preference settings:
+
+INSTALL STATUS BAR BUTTON - Installs a quick-access button on the status
+bar of your backdrop application.  If you are using NewtCase Desktop, then
+this button would appear on your floating button palette.
+
+HOT ZONE LOCATION - In lieu of (or in addition to) a status bar
+quick-access button you can also install a small 5-by-5 pixel hot zone in
+one corner of the visible area of your Newton's screen.  The hot zone will
+appear as a small 5-by-5 white square in the chosen corner.  The hot zone
+has the same effect as the status bar button, but can be more convenient
+because it's always available.  Note that the "LOWER RIGHT" and "LOWER
+LEFT" settings place the hot zone in the corner of the VISIBLE screen area,
+just ABOVE the silk-screened (permanent) buttons, NOT in the corner of the
+physical screen.
+
+ALLOW LARGER NOTES - By default, your ToDo notes are stored in the same
+soup entry as the actual ToDo items.  If you generally take small and/or
+few notes this setting will be fine for you.  This is because the Newton
+stores all ToDo items for a single day (and *ALL* repeating ToDos) in a
+single soup entry.  If you take large and/or many notes, this entry can
+become very large, possibly overflowing available heap memory (this is less
+of a problem on the MP130 than it is on the MP120).  If you need to take
+larger notes, you can enable the "ALLOW LARGER NOTES" pref, which will
+force What to Do to store each of your notes in its own soup entry. 
+Although this permits much larger notes, these notes do not get deleted
+when you delete the associated ToDo item.  If you use this setting, you
+will need to periodically purge "orphaned" ToDo notes by using the "Purge
+Orphan Notes" option in the What to Do prefs.
+
+
+***What to Do ToDo enhancements
+
+What to Do makes two major enhancements to the built-in ToDo application. 
+First, it adds a new button to the ToDo entry slip which allows the
+addition/editing of notes.  Notes are associated with a single ToDo, and
+are shared among all instances of a repeating ToDo.  Second, it adds a "new
+ToDo" button to the ToDo entry slip, which allows you to post the current
+ToDo item, and open a new slip so you can immediately enter another new
+ToDo.  This allows you to enter multiple ToDos in succession without wading
+through the "new" menu every time.
+
+***What to Do Quick-Access menu
+
+The What to Do Quick-Access menu is accessed via either the Status Bar
+button or a corner Hot Zone.  The Quick-Access menu has four options:
+
+MAKE TODO FROM SELECTION - Takes the currently selected text, and posts it
+as a new ToDo item.  If the ToDo is successfully posted, the text will be
+unhilited.  If What to Do finds a date in the selected text, the ToDo will
+be posted on that day.  A date must be at least three characters long, and
+must contain either the slash "/" or dash "-" character (9-6, for example
+would be september 6th).  If no date is found, today's date will be used.
+
+NEW QUICK TODO - Opens a mini ToDo-entry slip which allows very fast entry
+of multiple ToDos.  You can specify the ToDo text, due date, and priority,
+and post as many ToDos as you wish before closing the Quick ToDo slip.  If
+you have selected text before choosing NEW QUICK TODO, the ToDo-entry slip
+will be populated with the selected information.
+
+NEW FULL TODO - Opens the Dates app (if it's not already open), and opens a
+blank ToDo entry page.  If you have selected text before choosing NEW FULL
+TODO, the ToDo-entry page will be populated with the selected information.
+
+PREFS - Opens the What to Do prefs screen.
+
+
+***Other features
+
+The (i)nfo menu in What to Do prefs has two options:
+
+ABOUT - opens the about box.
+
+PURGE ALL TODO NOTES - Erases all ToDo notes.
+
+What to Do prefs has one additional button, PURGE ORPHAN NOTES, which is
+used to round up and delete all ToDo notes which cannot be matched to ToDo
+items.  This button is only necessary when you have selected "Allow Larger
+Notes", and you have deleted some ToDo item(s).
+
+
+
+KNOWN ISSUES WITH VERSION of What to Do
+
+*) WTD currently does not work with Dates as the backdrop application
+
+
+Version History
+
+Changes since 0.9b5:
+No hard-coded expiration date.  Now expires after 14-days.
+
+Changes since 0.9b4:
+Fixed a problem with losing notes when moving Todos with the drag-and-drop
+method.  Expiration date extended to 10/31/96.
+
+Changes since 0.9b1:
+    1) NEW FEATURE: Configurable hotzone/Status bar button behavior.  Two
+new   prefs items allow you to change the behavior of the Hotzone and
+Status bar  button when you CLICK or CLICK AND HOLD on the button.  "Click
+and hold" is defined     as clicking and holding on the button/hotzone for
+a full second, until you hear     the second click.  The default behavior
+for CLICK is to bring up the menu of choices,   and the default for CLICK
+AND HOLD is to bring up the QUICK TODO slip.
+
+    2) NEW FEATURE: What to Do now makes it easy for you to move Todos
+without  leaving your todo list in the Dates application.  Without WTD,
+moving a Todo is     a tedious process that has the side effect of moving
+you to the new date you    selected for your Todo.  WTD allows you to more
+easily change the date of a Todo    simply by allowing you to drag the Todo
+and drop it on the calendar in the upper    right-hand corner of the Dates
+screen.  When you do this, you will be presented     with a picker that
+allows you to select the new date for the Todo.  The Todo will   be moved
+to the new date, without dragging you along with it.
+
+    3) INTERFACE CHANGE: The informational paragraph for "allow longer
+notes" has   been moved to a seperate screen, accesible from the "About
+Longer Notes..." button.
+
+    4) NEW BEHAVIOR: When you open a Quick ToDo slip when the Dates app is
+open,    the form now defaults to the currently selected date instead of
+"today's" date.
+
+    5) NEW EXPIRATION DATE: The beta period has been extended to OCTOBER
+15, 1996.
+
+    6) BUG FIX: The "Quick ToDo" slip now operates correctly in landscape
+orientation.
+
+
+
+***Legal Mumbo Jumbo
+
+Newton, MessagePad, Connection Kit and Apple are registered trademarks of
+Apple Computer, Inc.  What to Do is a trademark of Innovative Computer
+Solutions.
+
+In using this software, you understand and agree that this software is
+provided "as is" without warranty of any kind.  The authors do not make any
+warranties, either expressed or implied, including but not limited to
+implied warranties of merchantability and fitness for a particular purpose,
+with respect to this software.
+
+In no event shall the author be liable for any consequential, incidental,
+or special damages whatsoever (including without limitation, damages for
+loss of critical data, loss of profits, interruption of business and the
+like) arising out of the use or inability to use this software.
+
+Have a nice day.  ;-)

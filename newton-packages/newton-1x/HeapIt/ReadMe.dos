@@ -1,0 +1,96 @@
+HeapIt 1.0
+(C)1994 Innovative Computer Solutions, All Rights Reserved
+Written by Dan Rowley, Documentation/Icons by Tom Collins
+
+< Overview >
+	HeapIt is a small utility for the Newton MessagePad that removes
+InstallScripts from the system heap.  The Newton OS leaves the install
+scripts in the heap, even though they are only used once.  We're not sure
+why it does this, but if you have 10-20 apps installed, that's a lot of
+heap space!  HeapIt also provides a heap space display on the Card/Backup
+slip and allows you to run HeapIt from there. 
+
+< Installation Notes >
+	Install HeapIt as you would any other package (with the Connection
+Kit or some other utility).  HeapIt will work if installed on a PCMCIA
+card (no Grip 'O Death). 
+
+< Usage >
+	When you run HeapIt, it will list the available heap space (HeapIt
+uses some of the heap itself when it runs).  If you wish to purge the heap
+of InstallScripts, click on the "Kill All InstallScripts" button.  HeapIt
+will remove the InstallScripts one by one, updating the heap status as it
+goes.  Running HeapIt multiple times won't affect the heap (positively or
+negatively). 
+
+	If you reboot your Newton, it will reload the InstallScripts and
+you will have to run HeapIt again if you want to remove them.  Also,
+inserting a card will cause the Newton to reload the InstallScripts for
+the applications on that card. 
+
+	HeapIt also installs a button in the Card/Backup slip that shows
+you the amount of free heap space and allows access to HeapIt.  This can
+be useful if you're about to make a backup and need as much heap space as
+possible. 
+
+	Should you need to remove HeapIt from your Newton, be sure to run
+the app and click on the "Prepare to Deinstall" button.  This will remove
+the Heap Space display from the Card/Backup slip.  If you forget to do
+this, it's no big deal - the "HeapIt" button in the Card/Backup slip just
+won't work anymore. 
+ 
+< What's the deal with InstallScripts anyway? >
+	Each application has an associated InstallScript.  When you first
+load the application, either by downloading it, inserting a card, or
+rebooting, the Newton loads the application's InstallScript onto the heap
+and executes it.  This is where the applicati on can set itself up
+(install buttons, initialize variables).  The InstallScript is only run
+once, yet it remains on the heap.  HeapIt removes the InstallScripts from
+the heap to free up that memory. 
+
+< Registration Information >
+	This application is SHAREWARE.  If you decide to keep it, please
+register it by sending $8.00 to Innovative Computer Solutions; 1075 North
+Miller Road, #142; Scottsdale, Arizona 85257-4612.  Please include your
+name, address (postal) and preferred e-mail address so we can contact you
+about updates and our other products.  PLEASE BE HONEST and register this
+software if you use it - we can't continue to write cool Newton apps if we
+don't get any support. 
+
+< Bugs, Questions, Comments, Suggestions... >
+	Send e-mail to the author, Dan Rowley, at drowley@kaiwan.com.  You
+can also reach us at ics@indirect.com.  We want to develop Newton
+applications to fit YOUR needs.  Give us feedback, let us know if we're
+doing it right.  We're here for you. 
+
+< Our Other Newton Applications >
+	If you liked this one, check out SleepAid and PrefsPatcher since
+we wrote those too.  If you didn't like this one, check out SleepAid and
+PrefsPatcher since they are different kinds of applications.  If you'd
+like the latest versions of our software, and can't find them on
+CompuServe or the Newton FTP sites, contact us via e-mail and we'll send
+them to you. 
+
+< Legal Mumbo Jumbo >
+	You can't sell HeapIt, but you can charge a nominal fee for
+connect time or media (not to exceed $5).  Contact the authors if you plan
+to include it in some sort of shareware/freeware collection. 
+
+	In using this software, you understand and agree that this
+software is provided "as is" without warranty of any kind.  The authors do
+not make any warranties, either expressed or implied, including but not
+limited to implied warranties of merchantability and fitness for a
+particular purpose, with respect to this software. 
+
+	In no event shall the author be liable for any consequential,
+incidental, or special damages whatsoever (including without limitation,
+damages for loss of critical data, loss of profits, interruption of
+business and the like) arising out of the use or in ability to use this
+software. 
+
+	Have a nice day.  ;-)
+
+Innovative Computer Solutions / 1075 N. Miller #142 / Scottsdale, AZ 85257
+    Dan Rowley / Internet: drowley@kaiwan.com / CompuServe: 73563,2343
+    Tom Collins / Internet: ics@indirect.com / CompuServe: 75460,2121
+

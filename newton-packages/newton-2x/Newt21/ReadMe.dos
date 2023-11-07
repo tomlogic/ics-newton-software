@@ -1,0 +1,100 @@
+Newt21 1.01
+(C)1995 Innovative Computer Solutions, All Rights Reserved
+Written by Dan Rowley, Documentation by Tom Collins
+
+< Overview >
+    After releasing a serious package like NewtCase, we figured it was time
+for a little fun.   Newt21 brings the blackjack table to your Newton.  Go
+up against the dealer one-on-one or have up to two computer players join
+in.
+
+< Installation Notes >
+    Nothing special here.  Just install it.  Unlike our utilities, Newt21
+doesn't patch anything.
+
+< How to play >
+  I'm going to assume that you know the basics of Blackjack (try to get
+close to 21 without going over) and just cover some of the details specific
+to Newt21.
+
+    At the start of a hand, you have some special options.  If you "double
+down", you double your bet but only get one additional card.  If you have
+two of the same card (ignoring suit), you can "split" the hand into two
+(each with the same bet as the original).  After splitting the cards, you
+are dealt an additional card to each hand.  You don't get to hit on split
+aces, but other split hands behave normally (e.g., you can hit or double
+down).
+
+    Rules of the ICS Casino:
+¥    The dealer hits up to 17
+¥    You can only split once
+¥    You can't hit on split aces
+¥ You can double down on anything
+
+    Tap on your bankroll to reset it to $500.  Tap on the shoe to force a
+reshuffle.  Tap on the Bet button to change your bet.  You can't change
+your bet in the middle of a hand.  Tap on the checkboxes next to the
+computer players to turn them on or off.
+
+< Preferences >
+    Open the Preferences from the "?" button.  You can set the number of
+decks from 1 to 10 along with the "Cut Location".  This refers to the spot
+in the shoe where the dealer will reshuffle and is shown as a white line in
+the "Shoe:" on the main screen.
+
+    The checkboxes allow you to force the dealer to hit on a soft-17 (Ace
+plus 6), turn sound effects on, and turn "Auto-Calculate Scores" on.  With
+the auto-calculate feature on, Newt21 will display point values for each
+player's hand.
+
+< Registration Information >
+    This application is SHAREWARE.  If you decide to keep it, please
+register by sending US$10.00 to Innovative Computer Solutions; ATTN: Tom
+Collins; 1075 North Miller Road, #142; Scottsdale, Arizona USA 85257-4612. 
+Please include your name, the name of this package (Newt21 1.0), type(s) of
+MessagePad(s) owned, address (postal) and preferred e-mail address so we
+can contact you about updates and our other products.  You can also
+register Newt21 on CompuServe.  GO SWREG and search for apps with the
+keyword "ICS" to see all of our programs.
+
+< Bugs, Questions, Comments, Suggestions... >
+    Send e-mail to the author, Dan Rowley, at dan@newts.com.  For
+administrative type stuff, e-mail Tom at tom@newts.com.  We want to develop
+Newton applications to fit YOUR needs.  Give us feedback, let us know if
+we're doing it right.  We're here for you.
+
+< Our Other Newton Applications >
+    You can find our software on CompuServe (GO NEWTON), AOL (PDA and
+NEWTON), AppleLink, eWorld, and the Internet (newton.uiowa.edu,
+ftp.amug.org, etc.).  Internet users should check out our World Wide Web
+page at <http://www.newts.com/> and FTP files (always the latest versions)
+at <ftp://ftp.newts.com/pub/>.
+
+< Legal Mumbo Jumbo >
+    Newton, MessagePad, Connection Kit and Apple are registered trademarks
+of Apple Computer, Inc.  Newt21 and the ICS Casino are trademarks of
+Innovative Computer Solutions.
+
+    You can't sell Newt21, but you can charge a nominal fee for connect
+time or media (not to exceed $5).  Contact the authors if you plan to
+include it in some sort of shareware/freeware collection or bundle it with
+a commercial product.
+
+    In using this software, you understand and agree that this software is
+provided "as is" without warranty of any kind.  The authors do not make any
+warranties, either expressed or implied, including but not limited to
+implied warranties of merchantability and fitness for a particular purpose,
+with respect to this software.
+
+    In no event shall the authors be liable for any consequential,
+incidental, or special damages whatsoever (including, without limitation,
+damages for loss of critical data, loss of profits, interruption of
+business and the like) arising out of the use or inability to use this
+software.
+
+    Have a nice day.  ;-)
+
+Innovative Computer Solutions / (602) 970-1032
+1075 N. Miller Rd. #142 / Scottsdale, Arizona USA 85257
+Dan Rowley/dan@newts.com/CIS: 73563,2343/eWorld&NewtonMail: DRowley
+Tom Collins/tom@newts.com/CIS: 75460,2121/eWorld&NewtonMail: Innovative

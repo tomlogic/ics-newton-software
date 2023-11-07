@@ -1,0 +1,143 @@
+GestureLaunch/Script 1.0
+(C)1995 Innovative Computer Solutions, All Rights Reserved
+Written by Dan Rowley, Documentation by Tom Collins
+
+< Overview >
+GestureLaunch and GestureScript are ICS's answer to button bars and package
+launchers.  Now you can assign up to four actions to each built-in button
+for a total of 24 different actions that are always available and don't
+take up as much heap or screen space as a button bar.  Launch any package
+or NewtCase Archive with a simple gesture (select, caret, line, or scrub). 
+GestureLaunch can even execute small NewtonScript programs entered with
+GestureScript (samples included).  Shareware, $10.  Free to NewtCase 2.x
+users.
+
+< Installation >
+This program is made up of three separate packages.  GestureLaunch is the
+autopart that takes the gestures and performs your configured actions.  The
+Scripts package is a dispatch only autopart (which means that it
+automatically deletes itself after you install it) that installs sample
+scripts for use with GestureLaunch and GestureScript.  The GestureScript
+package is an optional program for advanced users who want to write their
+own NewtonScript programs for use with GestureLaunch.
+
+< Instructions >
+Before using GestureLaunch, you need to understand the four gestures it
+uses.  The first, select, refers to holding the pen in one spot for a
+second.  The caret is drawn like the roof of a house, from the starting
+point, up and to the right then down and to the right.  The line is a
+simple horizontal line from left to right.  The final gesture, scrub, is
+drawn as a series of up and down strokes like an M or W.
+
+You can configure GestureLaunch by selecting the overview button (tap and
+hold on the dot between the arrows at the bottom of the screen).  After
+holding the pen down for a second, release it and the first GestureLaunch
+menu will appear.
+
+From the first menu, you can select the button you wish to configure.  Once
+you select a button, the configuration screen for that button appears.  For
+each button, you can assign an action for the four gestures (select, caret,
+line, and scrub).  This version of GestureLaunch supports three actions: 
+Launch a Package, Launch a NewtCase Archive and Execute a GestureScript. 
+After selecting an action, you need to choose a package or GestureScript
+for that action.  Once you have configured a gesture, you need to tap on
+the Save button to save your changes.
+
+Once you have configured GestureLaunch, tap on the close box of the first
+menu to exit the configuration screens.  Now you can perform a gesture on
+one of the buttons to have GestureLaunch perform the associated action.
+
+< Using GestureScript >
+GestureLaunch includes a package of sample scripts.  You only need to
+install GestureScript if you want to change those scripts or write your
+own.  If you want to modify the sample scripts, please modify a copy
+instead of the original.  Future releases of Script packages may replace
+the sample scripts with updated versions.  You can delete all of
+GestureScript's scripts by selecting "Delete All Scripts" from the Info
+button.
+
+The GestureScript interface is very straightforward.  When you edit a
+script, be sure to tap the "check" button to verify that it compiles
+correctly.  If you have questions about GestureScript or wish to distribute
+a package of scripts, please contact dan@newts.com (or DRowley on eWorld). 
+If you want us to include some of your scripts in a future release, e-mail
+them to gscripts@newts.com.
+
+< Registration Information >
+This application is SHAREWARE.  If you decide to keep it, please register
+by sending US$10.00 to Innovative Computer Solutions; ATTN: Tom Collins;
+1075 North Miller Road, #142; Scottsdale, Arizona USA 85257-4612.  Please
+include your name, the name of this utility (GestureLaunch 1.0), address
+(postal) and preferred e-mail address so we can contact you about updates
+and our other products.
+
+You can register by credit card through Kagi Shareware services.  E-mail us
+to request a copy of the registration program, or connect to our WWW page
+<http://www.newts.com/register.html> or FTP directory
+<ftp://ftp.newts.com/pub/register/> to download it.  You can also register
+GestureLaunch on CompuServe.  GO SWREG and search for apps with the keyword
+"ICS" to see all of our programs.  (at this time, GestureLaunch has not
+been assigned an SWREG number).
+
+Or, you can order our "NewtCase & Essentials" utility package and get
+NewtCase 2.2, SleepAid, NewtInfo, SoupKitchen and GestureLaunch/Script. 
+It's only $49.95 from PelicanWare (503/221-1148).
+
+If you have registered any previous version of GestureLaunch, you are
+automatically registered for this version.  Owners of NewtCase 2.0 and
+later are also registered for this version.
+
+PLEASE BE HONEST and register this software if you use it -- we can't
+continue to write cool Newton apps if we don't get any support.  We
+deliberately priced GestureLaunch where anybody can afford it.  Ten dollars
+really isn't that much, but it means a lot to us - please don't violate our
+trust by failing to register your shareware.
+
+< Bugs, Questions, Comments, Suggestions... >
+Send e-mail to the author, Dan Rowley, at dan@newts.com.  For business
+messages (e.g., registration questions), please write tom@newts.com.  You
+can also get general information by e-mailing info@newts.com, or find out
+what we're up to by mailing news@newts.com.  We want to develop Newton
+applications to fit YOUR needs.  Give us feedback, let us know if we're
+doing it right.  We're here for you.
+
+< Our Other Newton Applications >
+Check out our popular Newton utilities, NewtCase and SleepAid.  They were
+voted numbers three and five (respectively) in the GNUT Top 10 Shareware
+List of September 1994.  We're also responsible for HeapIt, NewtInfo,
+Newt21, ICS Fixer, GraffitiPatch, GestureLaunch, SoupKitchen, inLine and
+PrefsPatch.
+
+You can find our software on CompuServe (GO NEWTON), AOL (PDA and NEWTON),
+AppleLink, eWorld, and the Internet (newton.uiowa.edu, ftp.amug.org, etc.).
+ Internet users should check out our World Wide Web page at
+http://www.newts.com/ and FTP files (always the latest versions) at
+ftp://ftp.newts.com/pub/.
+
+< Legal Mumbo Jumbo >
+Newton, MessagePad, Connection Kit and Apple are registered trademarks of
+Apple Computer, Inc.  GestureLaunch and GestureScript are trademarks of
+Innovative Computer Solutions.
+
+You can't sell GestureLaunch/Script, but you can charge a nominal fee for
+connect time or media (not to exceed $5).  Contact the authors if you plan
+to include it in some sort of shareware/freeware collection or bundle it
+with a commercial product.
+
+In using this software, you understand and agree that this software is
+provided "as is" without warranty of any kind.  The authors do not make any
+warranties, either expressed or implied, including but not limited to
+implied warranties of merchantability and fitness for a particular purpose,
+with respect to this software.
+
+In no event shall the authors be liable for any consequential, incidental,
+or special damages whatsoever (including, without limitation, damages for
+loss of critical data, loss of profits, interruption of business and the
+like) arising out of the use or inability to use this software.
+
+Have a nice day.  ;-)
+
+Innovative Computer Solutions / (602) 970-1032
+1075 N. Miller Rd. #142 / Scottsdale, Arizona USA 85257
+Dan Rowley/dan@newts.com/CIS: 73563,2343/eWorld: DRowley
+Tom Collins/tom@newts.com/CIS: 75460,2121/eWorld: Innovative

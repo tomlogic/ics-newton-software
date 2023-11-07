@@ -1,0 +1,225 @@
+GestureLaunch 3.0 DEMO
+by Dan Rowley
+Copyright (C) 1997, Innovative Computer Solutions
+All Rights Reserved.
+
+This is a time-limited demo of GestureLaunch 3.0 for the MessagePad 2000.  It will expire 14 days after you first install it.
+GestureLaunch includes the functionality of our popular shareware buttonbar enhancement, BarKeep, but it is not the same product.  GestureLaunch 3.0 is not shareware - it is sold exclusively as part of the NewtCase Utility Suite.  The electronic manual for the entire Newtcase suite is included in this distribution, so you can see what the rest of the packages in the suite can do for you.
+NewtCase 3.1 is available now from PelicanWare (see contact info at the bottom of this file) for $49.95, or wherever Newton software is sold.
+Reduced-cost (or free, depending on when you bought NewtCase) upgrades from previous versions of NewtCase are available directly from PelicanWare.
+If you are a **registered** owner of a previous shareware version of either GestureLaunch or BarKeep, you are entitled to upgrade to the full Newtcase suite for the reduced price of $35.00.  Contact PelicanWare for details.
+
+*********************************************************
+*********************************************************
+IF YOU READ NOTHING ELSE, PLEASE PLEASE PLEASE READ THIS SECTION!!
+	Most early users of GestureLaunch haven't had much difficulty figuring out how to use it (even without a manual, most were up and running in under 15 minutes), but the two most commonly encountered questions/problems were:
+Q - help!  I can't drag my icons anymore!
+A - GestureLaunch can't tell the difference between a gesture and a drag, so we invented a new gesture for dragging icons - the tap-drag.  It's just as if you were copying text in the notepad.  Tap briefly, then drag (like a double tap, except the second tap is a drag).  It's really easy when you get the hang of it.
+Q - help!  I can't open the gesturelaunch configuration window!
+A - Open the gesturelaunch configuring window by "selecting" an icon on the buttonbar.  Do this by holding the pen on the icon for a couple of seconds until the ink gets fat, and the Newton "squeeks" (if sound is on).  It's just like selecting text.
+*********************************************************
+*********************************************************
+*****************
+***INSTALLATION***
+*****************
+	Because GestureLaunch includes the functionality of BarKeep, they can not both be installed at the same time.  If you have BarKeep installed, you should remove it first before installing GestureLaunch (you can reinstall BarKeep later if you decide you want to switch back).  
+	Use your favorite package installer (NBU, NCU, Newton Package Installer, X-Port) to download the GestureLaunch package to your MessagePad 2000.  You may install GestureLaunch on a card, but it will use more heap than if it were installed internally, and you will receive the "Newton still needs this card.." message if you try to remove the card (you will still be permitted to remove the card, but you will have to reinsert it briefly first).  We therefore recommend that you install GestureLaunch internally.  Although the package file is 160k on the Desktop, it occupies approximately 92k on the Newton.  Heap usage will vary depending on how you have it configured, but will average approximately 3k (the more icons on your buttonbar, the more heap GestureLaunch will use).  
+	GestureLaunch will appear in your extras drawer as an extension called "BarKeep:ICS" (GestureLaunch and BarKeep have the same name on the Newton to prevent them from being installed at the same time).  
+	You should also install the scripts.pkg package, which includes approximately 40 scripts for use with GestureLaunch.  When you download the scripts package, it will install the scripts and automatically delete itself.  Scripts are always installed internally.  Descriptions for the scripts can be viewed in the GestureLaunch configuration window.
+	You may also install the KillBB.pkg package if you want to be able to temporarily remove the buttonbar altogether (see the documentation for more information about using KillBB).  
+	To remove GestureLaunch, simply scrub the "Barkeep:ICS" icon from your extras drawer, and the "KillBB:ICS" icon if you had installed KillBB.
+
+***************************
+***USING GESTURELAUNCH 3.0***
+***************************
+	Complete instructions on how to use GestureLaunch 3.0 can be found in the NewtCase manual, which is included with this distribution.  The NewtCase manual is in ACROBAT (.pdf) format.  An Acrobat viewer can be found at http://www.adobe.com/.   The text of the relevant sections are included for your reference below.  If you have Acrobat viewer, you should view the Acrobat version, since it has screenshots and better formatting.
+Overview
+--------
+	GestureLaunch allows you to configure the MessagePad’s built-in buttons so
+that when you write a gesture over a button, a predetermined action will be
+performed. A gesture can be a letter, number, punctuation mark, or a double-tap.
+Examples of some possible actions are launching a package, initiating a
+Dock, displaying heap statistics, or toggling the backlighting on or off without
+using the power switch. These are just a few of the many actions available, and
+advanced users who are familiar with NewtonScript can add their own.
+The actions you can choose from in GestureLaunch are called scripts. When
+you want to configure a button with GestureLaunch, first associate a gesture to
+the button, then associate a script to the Gesture. GestureLaunch comes with
+over thirty pre-designed scripts.
+Here are some ways you could use GestureLaunch: 
+*	Write a letter on the extras icon, and have a popup package picker 
+appear, already scrolled to the letter your wrote. 
+*	Write a letter on the names icon to open the names application to a 
+particular letter 
+*	Write a number on the dates icon to create a Todo or Appointment that 
+many days in the future 
+*	Write a number on the dates icon to open your agenda/todo list that many 
+days in the future 
+*	Configure letters to launch your favorite applications (P for NewtPaint, 
+X for X-Port, Q for QuickFigure, etc) 
+*	Double tap the notes icon to open the notepad, create a new recording 
+note, and begin recording automatically 
+*	Configure a gesture to bring up a configurable list of often-used 
+phrases 
+*	Insert a Date and/or Timestamp with a single gesture 
+*	Scroll past a multi page note in the notepad with a single gesture 
+*	Configure a button to simulate common command-key equivalents (Z- undo, 
+C- copy, X- cut, V- paste, etc) 
+*	The possibilities are nearly endless! 
+
+	If you are familiar with the NewtonScript programming language, you may be
+able to design your own scripts. A small NewtonScript expression can be made
+into a GestureLaunch script with the Script Editor. It’s instructions are not
+included in this documentation, see the electronic readme for details.
+Installing GestureLaunch
+	GestureLaunch is not compatible with Apple eMate devices. GestureLaunch
+and it’s associated packages should be installed on the internal store. 
+**IMPORTANT NOTE:  When GestureLaunch is installed, icons on the built-in button
+bar cannot be selected and moved as usual. To drag an icon on the buttonbar while 
+GestureLaunch is installed, use the "tap-drag" gesture that you would normall use
+to copy text in the notepad.  Tap briefly, then drag.
+Using GestureLaunch
+------------------
+A. To select a button for configuration, hold your pen on it for a few seconds and
+then release it.  If you have sound turned on, you will hear the customary
+"squeak" sound, which indicates that you have selected the icon.  When you release
+your pen, the configuration window will appear.  The icon for the button you are 
+configuring and the button’s name will appear at the top of the window.
+B. To configure a different button, you can either select it in the button bar (as above), or
+tap the button’s name at the top of the configuration window and a pop up list
+of all available icons will appear. The latter option allows you to configure
+icons which are not currently visible on your button bar.
+C. Tap New to get a pop up list of the predefined gestures that can be assigned
+to a button. Valid gestures are 0-9, A-Z, and the following symbols: !, #, $, %,
+&, *, ?, ^, and ~. You may have difficulty using some of them due to their
+similarity (i.e., “oh” and “Zero”). To select the gesture you want to use, either
+tap it on the list, or perform the gesture on the sample icon box. When you
+write on the sample icon, the screen will briefly display the letter it recognized.
+In addition to regular gestures, there are three “events” that can be assigned to a
+button. These appear on the pop up list of gestures. The “BeforeScript” is
+executed for all gestures before the configured script is executed. The
+“AfterScript” is executed for all gestures after the configured script is executed.
+The “DefaultScript” executes if the user writes a gesture which has no defined
+action.
+D. You can also choose the gesture to be configured by writing it on the sample
+icon. If GestureLaunch recognizes the gesture, it will ask you if you would like
+to create a configuration for it. If so, tap Yes and proceed.
+E. Once you’ve selected a gesture to configure, choose the action you would
+like it to perform from the list of available scripts.
+F. When you choose a script, a description of that script will appear in the
+information box below the list.
+G. Some scripts have “parameters” that need to be set. For the launch
+application script, the package you would like to launch when the gesture is
+performed is the parameter. Other scripts take text or lists of text items as
+parameters. The information box for the script will specify when it needs a
+parameter, and what the parameters are. When a script requires it, an Edit
+Parameter button will appear. To enter the parameters, tap the button and enter
+them according to the instructions that appear in the script’s description. Once
+saved, the information box will show the current parameter for the script with
+the rest of the description.
+H. When finished configuring your button for a gesture, tap the Save button. If
+you try to change icons or gestures without saving, you will be prompted to
+save. Tap Revert to throw away your changes.
+
+****************************
+***USING BARKEEP AND KILLBB***
+****************************
+	BarKeep allows you to customize the location and appearance of the systems’s built-in
+button bar. 
+Key features include the ability to:
+* Store more icons by adjusting the space between icons.
+* Store more icons by turning off text labels.
+* Customize the button bar with different settings for each screen orientation:
+	- Button bar location (all four sides allowed)
+	- Button bar width
+	- Location of scroll/overview controls
+	- orientation of scroll/overview controls
+	Also included with BarKeep is the "KillBB" extension, which allows the user
+to temporarily disable the button bar altogether, permitting the use of the entire
+screen.
+Installing BarKeep
+----------------
+	BarKeep is built-in to GestureLaunch for Newton 2.1. When you install
+GestureLaunch for 2.1, it will install the BarKeep extension in the Extras
+Drawer Extensions folder. BarKeep should be installed and stored on the
+internal store.
+	BarKeep installs a new item in the Newton’s system Preferences application.
+Tapping the BarKeep icon in your extras drawer has no effect. To configure
+your button bar with BarKeep, launch the Newton’s built-in Preferences
+application and choose BarKeep from the list of prefs.
+Setting the BarKeep preferences
+-----------------------------
+	There are two different types of button bar settings controlled by BarKeep -global
+settings, and orientation-specific settings. Global settings apply to all
+screen orientations, and orientation-specific settings apply only to a single
+screen orientation (note that the two possible landscape orientations and two
+possible portrait orientations are distinct from each other, giving a total of four
+possible screen orientations).
+Global settings-
+	Icon spacing - Adjusts the amount of space between icons on the button bar.
+		Choose smaller settings to fit more icons on the button bar. If your icons are
+		very close together, you will probably want to turn off text labels. Note that the
+		more icons you have on your button bar, the more heap space it will use. Also,
+		smaller icons can hinder the GestureLaunch character recognition.
+	Icon text labels - Controls whether text labels are displayed under icons in the
+		buttonbar. You may choose to display labels ALWAYS, NEVER, or only
+		when the screen is in portrait or landscape orientation.
+
+Orientation-specific settings
+	ButtonBar location - Controls the location of the button bar. The button bar
+		may be positioned on the TOP, LEFT, RIGHT, or BOTTOM of the screen.
+	ButtonBar thickness - Controls the thickness (width or height) of the button
+		bar. A narrower button bar allows more screen space for running applications,
+		but may clip larger icons.
+(Note that if your button bar is very narrow, you will probably want to turn off
+text labels. If you choose the smallest thickness ("Tiny"), your icons will be
+shrunken to approximately 60% of their original size.)
+	Scroll/Overview location - Controls the location of the scroll/overview control
+		cluster. If the button bar is located on the left or right, the controls may be
+		located at the TOP or BOTTOM. Similarly, if the button bar is located on the
+		top or bottom, the controls may be located on the LEFT or RIGHT.
+	Overview position - Controls the location of the overview button relative to
+		the scroll arrows. You may choose to place the overview button INSIDE the
+		arrows (towards the inside of the screen), OUTSIDE the arrows (towards the
+		edge of the screen), or on the LEFT or RIGHT of the arrows.
+
+Using KillBB
+-----------
+	BarKeep includes the "KillBB" extension, which allows you to temporarily
+remove the button bar altogether, allowing you to use the entire screen. If you
+choose to install KillBB, it will add an icon to your extras drawer called
+"KillBB," which you can drag to your buttonbar if you like. When you tap on
+the button, the button bar will be closed, and the screen redrawn to occupy the
+entire screen area. In the button bar's place will be a small floating button bar.
+
+	The floating button bar provides access to the extras drawer, the scroll arrows
+and overview, an undo button, and a button to bring the full button bar back.
+The button at the bottom/right of the floater is used to bring back the full
+button bar, either temporarily or permanently, depending on how you tap it. If
+you simply tap it, the button bar will appear on top of where it usually resides
+(as opposed to redrawing the screen to accommodate it), and will disappear
+when you choose a button. If you tap and hold for a second or so, you will
+hear a second click, and then the screen will be redrawn with the button bar
+restored to it's previous location.
+	The KillBB button bar may be drawn in either horizontal or vertical orientation.
+To change the orientation of the floating button bar, simply double tap
+on the drag handle at the top/left of the button bar. You may drag the floater
+partially off screen if you wish.
+GestureLaunch and BarKeep are incompatible with ButtonBar Plus and other related utilities.
+
+
+CONTACT INFORMATION
+---------------------
+Innovative Computer Solutions
+23005 N 21st way
+Phoenix, AZ 85024
+(602) 473-1240
+http://www.newts.com/
+info@newts.com
+
+PelicanWare, Inc.
+550 SW Park Ave.
+Suite 270
+Portland, OR  97205
+Vox: 503-221-1148
+http://www.pelicanware.com/

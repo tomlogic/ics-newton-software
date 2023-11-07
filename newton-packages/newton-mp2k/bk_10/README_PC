@@ -1,0 +1,179 @@
+BarKeepÅ
+Buttonbar enhancement for the MessagePad 2000
+by Dan Rowley <dan@newts.com>
+Copyright ©1997, Innovative Computer Solutions
+
+Version : 1.0
+Released : 5/31/97
+
+***A note about this version of BarKeep
+
+	Although this is the first publicly released non-beta version of BarKeep, it is most assuredly not the last.  We ran out of time to implement all
+of the features we wanted to implement, and we felt it was safer to release what we knew worked before we started working on new, possibly
+destabilizing features.  We expect that the first update to BarKeep will appear sometime in the month of June.  Unlike previous versions, the new
+betas will be made available only to registered users, until they are finalized.
+
+
+***What is BarKeep?
+
+	BarKeep is an extension for the Newton MessagePad 2000 which allows you to customize the location and appearance of the "soft" button bar.  Key
+features include the ability to:
+	*) Store more icons by adjusting the space between icons
+	*) Store more icons by turning off text labels
+	*) Customize the button bar with different settings for each screen orientation:
+			*) Button bar location (all four sides allowed)
+			*) Button bar width
+			*) Location of scroll/overview controls
+			*) orientation of scroll/overview controls
+
+	Also included with BarKeep is the "KillBB" extension, which allows the user to temporarily disable the button bar altogether, permitting the use
+of the entire screen.
+
+
+***ABOUT SHAREWARE
+
+BarKeep is SHAREWARE.  You have fourteen days to try BarKeep and determine if it's right for you.  If you want to keep it, you need to register it
+(If you don't register, it will stop working after 14 days).  The registration fee is $15.  Upgrades to new versions of the shareware version of
+BarKeep are free to registered users.  You can register BarKeep several ways-
+
+	1 - On Compuserve via SWREG (GO SWREG), #15149.
+	2 - Via the Kagi Shareware registration service - you can register online by visiting our web site at <http://www.newts.com/>.
+	3 - By sending a check for $15 to Innovative Computer Solutions at 23005 N 21st way; Phoenix, Arizona 85024.
+
+	When we receive your registration, we will send you a code to unlock your copy of BarKeep.  Choose the "Register" option on the BarKeep prefs
+screen to enter your registration code and unlock your copy of BarKeep.  
+
+
+
+***Installing BarKeep
+
+	Install BarKeep as you would any other Newton software, by downloading it to your device using the Newton Backup Utility, Newton Package
+Installer, X-Port, or other package installation utility.   BarKeep will install a new item in the system 'prefs' application.  Tapping on the
+BarKeep icon in your extras drawer has no effect.  Launch the buit-in 'prefs' application and choose "BarKeep" to configure your button bar.
+	Because of the nature of BarKeep and KillBB, we strongly recommend that you install both extensions INTERNALLY (ie; not on a card) if you
+regularly remove your card.  Do not attempt to remove a card with KillBB on it while the small floating button bar is visible.
+
+
+***BarKeep preferences
+
+	There are two different types of button bar settings controlled by BarKeep - global settings, and orientation-specific settings.  Global settings
+apply to all screen orientations, and orientation-specific settings apply only to a single screen orientation (note that the two possible landscape
+orientations and two possible portrait orientations are distinct from each other, giving a total of four possible screen orientations).
+
+	*) Global settings
+	Icon spacing - Adjusts the amount of space between icons on the button bar.  Choose smaller
+	settings to fit more icons on the button bar.  Note that if your icons are very close together,
+	you will probably want to turn off text labels.
+
+	Icon text labels - Controls whether text labels are displayed under icons in the button
+	bar.  You may choose to display labels ALWAYS, NEVER, or only when the screen is in
+	portrait or landscape orientation.
+
+	*) Orientation-specific settings
+	ButtonBar location - Controls the location of the button bar.  The button bar may be
+	positioned on the TOP, LEFT, RIGHT, or BOTTOM of the screen.
+
+	ButtonBar thickness - Controls the thickness (width or height) of the button bar.  A
+	narrower button bar allows more screen space for running applications, but may clip 
+	larger icons.  Note that if your button bar is very narrow, you will probably want to
+	turn off text labels.  If you choose the smallest thickness ("Tiny"), your icons will be
+	shrunken to approximately 60% of their original size.
+
+	Scroll/Overview location - Controls the location of the scroll/overview control cluster.
+	If the button bar is located on the left or right, the controls may be located at the TOP
+	or BOTTOM.  Similarly, if the button bar is located on the top or bottom, the controls
+	may be located on the LEFT or RIGHT.
+
+	Overview position - Controls the location of the overview button relative to the scroll
+	arrows.  You may choose to place the overview button INSIDE the arrows (towards the
+	inside of the screen), OUTSIDE the arrows (towards the edge of the screen), or on the 
+	LEFT or RIGHT of the arrows. 
+
+***Other features
+
+	BarKeep includes the "KillBB" extension, which allows you to temporarily remove the button bar altogether, allowing you to use the entire screen. 
+If you choose to install KillBB, it will add an icon to your extras drawer called "KillBB," which you can drag to your buttonbar if you like.  When
+you tap on the button, the button bar will be closed, and the screen redrawn to occupy the entire screen area.  In the button bar's place will be a
+small floating button bar.  The floating button bar provides access to the extras drawer, the scroll arrows and overview, an undo button, and a
+button to bring the full button bar back.  
+
+	The button at the bottom/right of the floater is used to bring back the full button bar, either temporarily or permanently, depending on how you
+tap it.  If you simply tap it, the button bar will appear *ON TOP OF* the where it usually resides (as opposed to redrawing the screen to accomodate
+it), and will disappear when you choose a button.  If you tap and hold for a second or so, you will hear a second click, and then the screen will be
+redrawn with the button bar restored to it's previous location.
+
+	The KillBB button bar may be drawn in either horizontal or vertical orientation.  To change the orientation of the floating button bar, simply
+double tap on the drag handle at the top/left of the button bar.  You may drag the floater partially off screen if you wish.
+
+
+***KNOWN ISSUES WITH VERSION 1.0 of BarKeep
+
+	BarKeep exposes a number of button-bar related preferences which allow the user to configure their button bar in ways that although "legal",
+could certainly be considered to be "non-standard" (landscape with the button bar on the bottom is a typical example).  Since BarKeep is the first
+(although certainly not the last) application which exposes these situations, we're finding that a number of application developers have made
+assumptions about screen orientation and size which are not necessarily "safe."  (assuming that the screen will always be at least 320 pixels tall is
+the most common of such assumptions, and the second most common is assuming that the button bar will exist at all).  The symptom of this problem is
+that some applications will refuse to open when the button bar is configured in these "non standard" ways.  We have contacted each of the developers
+as they come to our attention, and are working with them to resolve the issues (the fix is generally quite simple), but I ask that you bear with us
+(and them!) as we work through these "growing pains."  As a rule of thumb, if the application did not allow rotation on the MessagePad 120/130, it
+will not work in Landscape orientation with the button bar on the top or bottom.  As I noted earlier, the fix is generally very simple, and I'm
+working with developers to solve the issues as they come up.  
+
+***Legal Mumbo Jumbo
+
+Newton, MessagePad, Connection Kit and Apple are registered trademarks of Apple Computer, Inc.  BarKeep is a trademark of Innovative Computer
+Solutions.
+
+In using this software, you understand and agree that this software is provided ≥as is≤ without warranty of any kind.  The authors do not make any
+warranties, either expressed or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose,
+with respect to this software.
+
+In no event shall the author be liable for any consequential, incidental, or special damages whatsoever (including without limitation, damages for
+loss of critical data, loss of profits, interruption of business and the like) arising out of the use or inability to use this software.
+
+Have a nice day.  ;-)
+
+
+***CHANGE HISTORY
+
+***Changes in 1.0
+
+
+	* The "Ultra-narrow" icon spacing has been renamed "Narrowest," and "Ultra-narrow" is now a
+	new setting between "Super-Narrow" and "Narrowest."
+
+	* The KillBB floater checks every few seconds to make sure it's on
+	top, and if it isn't, it moves itself there.  If the floater gets
+	obscured, wait a few seconds, and it should reappear.
+
+	* Tiny icons are not as badly distrorted in the process of reduction.
+
+	* Bug fixes.
+
+***Changes in 1.0b4
+
+	* Numerous bug fixes in both BarKeep and KillBB
+	* KillBB floater is no longer transparent, because it was taking too long to simulate
+	the transparency effect- the delay was causing skips in handwriting recognition.  Even
+	though it only took 4/60ths of a second to draw, it was sufficient to cause the recognition
+	system to "hiccup."
+	* The KillBB floater may now be dragged partially off-screen.
+	* The orientation of the KillBB floater can be changed between horizontal and vertical
+	by double-tapping on the drag handle.
+	* You can now "temporarily" bring back the button bar from the KillBB floater if you just
+	want to launch one item from the button bar.  Tap and hold on the expansion button to bring
+	the button bar back permanently.
+	* You can now enter a registration code into BarKeep to shut it up.  Because this version
+	is still a beta, IT WILL STILL EXPIRE on June 1st, but a final version will be available by
+	then.
+	* Grayscale icons
+	* Less clipping of icons in vertically-oriented button bar when icons are close together.
+	* There's now an undo button on the KillBB floater.
+	* There's a new option in the "This application can't operate in this screen orietentation.." 
+	dialog which allows you to force the app to open anyway, as a temporary workaround to the
+	incompatibilities/conflicts that cause some apps not to open in landscape when the 
+	button bar is on the "long" side of the screen.  Note that you should only choose this option
+	if you are sure the application will work properly.  The application may obscure
+	the button bar when it opens.  If you force an application to open and it fails, you may need
+	to restart your Newton.
+

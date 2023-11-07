@@ -1,0 +1,135 @@
+This scripts.pkg file is for GestureLaunch 2.0.  If you do not have
+GestureLaunch 2.0, you can download it from
+<http://www.newts.com/newton/glaunch.html>.
+
+We have changed some of the scripts (for example add
+note/outline/checklist).  To make sure you have the up to date scripts, you
+should delete the old versions before installing scripts.pkg.  You can do
+this by going into the Storage section of the Extras Drawer, tap on
+Scripts:GestureLaunch:ICS and then tap on delete.
+
+If you have scripts you want to keep, you will need to manually delete each
+of the ICS scripts using GestureScript.
+
+Gesture Scripts
+---------------
+#2 - New Blank Note
+  Opens the notepad if it is not already open and creates a new blank note.
+
+#4 - Goto top of notepad
+  Scroll the notepad to the top.  Only works if the notepad is open.
+
+#5 - Goto bottom of notepad
+  Scroll the notepad to the bottom.  Only works if the notepad is open.
+
+#8 - Sleep
+  Put the Newton to sleep.
+
+#9 - Restart
+  Reboot the Newton (equivalent to hitting the reset button)
+
+#10 - Open NewtCase QuickPicker
+  Open the NewtCase QuickPicker package launcher.  Only works if the
+QuickPicker is installed.
+
+#13 - Heap Status
+  Force a garbage-collection and report the amount of free heap.
+
+#14 - Launch Quicknames
+  Launch the QuickNames app by LandWare, if installed.
+
+#15 - Quicknames Autosearch
+  Activate the QuickNames Autosearch feature, if QuickNames is installed.
+
+#17 - New Checklist
+  Open the notepad if it is not already open, and create a new checklist.
+
+#18 - New Outline
+  Open the notepad if it is not already open, and create a new outline.
+
+#19 - Scroll to top of current note
+  Scroll to the top of the current note in the notepad.  Only works if the
+notepad is already open.
+
+#20 - Rotate Screen
+  Rotate the Newton screen.  This is equivalent to hitting the rotate
+button in the extras drawer.
+
+#21 - Backlight
+  Toggle the backlight on a MessagePad 130.
+
+#46 - Receive X-Port
+  Tell X-Port to receive.  This is equivalent to opening the InBox and
+choosing Receive/X-Port.  Only works if X-Port is installed.  X-Port need
+not be open.
+
+#47 - Take screen shot with X-Port
+  Tell X-Port to take a screenshot, and open X-Port.  Only works if X-Port
+is installed.  X-Port need not be open.
+
+#48 - Send all pending X-Ports
+  Tell X-Port to send all X-Ports pending in the outbox.  Only works if
+X-Port is installed.  X-Port need not be open.
+
+#101 - Open Powernames Find Window
+  Opens the PowerNames Find Window, if PowerNames is installed.
+
+#102 - Open MoreInfo New Meeting Slip
+  Opens the MoreInfo New Meeting Slip, if MoreInfo is installed.
+   
+#103 - Open MoreInfo New ToDo Slip
+  Opens the MoreInfo New Todo Slip, if MoreInfo is installed.
+
+#104 - Open MoreInfo At a Glance Screen
+  Opens the MoreInfo At a Glance Sceen, if MoreInfo is installed.
+
+#105 - Open Powernames popup names list
+  Opens the PowerNames popup names list, if PowerNames is installed.
+
+#31 - KwikMenu - New Meeting
+#32 - KwikMenu - ToDo
+#33 - KwikMenu - Styles
+#34 - KwikMenu - Edit
+#35 - KwikMenu - Numbers
+#36 - KwikMenu - Actions
+
+Full (registered, or bundled with NewtCase) version only:
+
+#6 - Assist Shell
+  Programming example demonstrating how to use "Assist"
+
+#7 - Find Shell
+  Programming example demonstrating how to use "Find"
+
+#12 - Launch NSBASIC program Shell
+  Programming example demonstrating how to launch an NSBasic program.
+
+#16 - Open Speed QuickAccess
+  Activate "SPEED" QuickAccess function, if SPEED is installed.
+
+#40 - Execute Selected Expression
+  Take the currently selected expression (NewtonScript), compile it,
+execute it, and replace the selected text with the result.
+
+#41 - Insert current time
+  Insert the current time at the insertion caret.
+
+#42 - Desktop Button bar to front
+  If desktop (part of NewtCase) is installed, "tear off" the buttonbar, and
+bring it to the front.
+
+#43 - Popup menu of all scripts
+  Bring up a popup menu of all installed scripts, and launch the selected
+script.
+
+#44 - Toggle Store
+  Toggle the "default" store between Card/Internal
+
+#45 - Start NBU/NCU Connection
+  Equivalent to opening the "Connection" app and tapping the "connect"
+button.  Works only on English-language Newtons, but can be modified to
+work on others.
+
+#49 - CanDo! By Ron Risley
+  User-submitted script that takes the currently selected text and makes a
+new Todo item out of it.  Submitted by Ron Risley, rrisley@pobox.com.

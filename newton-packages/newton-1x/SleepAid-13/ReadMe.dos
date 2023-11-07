@@ -1,0 +1,189 @@
+SleepAid 1.3
+(C)1994-5 Innovative Computer Solutions, All Rights Reserved
+Written by Dan Rowley, Documentation/Icons by Tom Collins
+
+< Overview >
+    SleepAid covers all aspects of power management on your Newton
+(Classic, MP100, MP110 or German MP).  It replaces the default "Sleep"
+preferences allowing you to set two sleep times - one for battery and one
+for AC.  It lets you reboot or sleep your Newton even if some errant
+application wants it to stay awake.  And finally, it adds a SleepAidNow
+corner for one tap sleep and a HeapStatus corner for an instant reading of
+free heap space.  SleepAid is not a radical change from the existing
+interface.  It adds functionality without complexity and implements sleep
+the way it should have been in the first place.  :-)
+
+< Installation Notes >
+    If you are upgrading from SleepAid 0.9b, please launch the old SleepAid
+and tap on "Kill Prefs" before removing the package.  Users of later
+versions of SleepAid do not need to remove their prefs before upgrading to
+SleepAid 1.3.
+
+    Use the "memory" preferences panel or some other package removal
+utility to remove the old version.  Once the old version of SleepAid has
+been removed, you can install SleepAid 1.3.
+
+    Install SleepAid as you would any other package (with the Connection
+Kit or some other utility).  SleepAid will work if installed on a PCMCIA
+card, but we do not recommend it.  If you remove the card SleepAid is
+installed on, it will not exhibit the Grip Of Death (provided it is not
+open), but it WILL deactivate itself.  So, even though SleepAid works fine
+from a card, it is not active (because it is not present) if you remove the
+card it's on.  SleepAid picks up where it left off (i.e.; it remembers its
+settings) when you reinsert the card.
+
+    It's a good idea to go into the SleepAid prefs right after installing
+it, because you may not like the defaults.  Until you set the prefs,
+SleepAid will maintain your existing sleep time for both AC and battery
+power.
+
+Ê
+
+
+
+
+
+
+
+
+< SleepAid Preferences >
+    When SleepAid starts up, it replaces the Newton's default Sleep
+preferences.  You access the new preferences the same way you accessed the
+old preferences - they appear in the same location on the preferences roll.
+ The new preferences use sliders instead of a popup menu for setting a
+sleep time for battery power and AC power ("plugged in").  Once installed,
+SleepAid monitors battery status and updates the sleep time accordingly.
+
+    On the Classic MP, SleepAid will think that you are plugged in if you
+have fresh batteries (the only way to detect an AC connection on a Classic
+MP is to check for a 100% battery level).  On the MP100 and MP110 you can
+use the new calibrate feature to enable true AC sensing.
+
+    Tap the "Calibrate" button to set the low/high power threshold to the
+current battery level.  On the MP100 and MP110, this level will appear as
+"AC sense" if you calibrate when your AC adapter is plugged in.
+
+    To activate or deactivate the "SleepAidNow" (lower-left) or
+"HeapStatus" (lower-right) corners, tap the checkboxes by each item. 
+Changing these setting requires special processing.  If you make a change
+to either of these "hot corners", a "Set" button will appear.  You must tap
+this button when you are finished, or the "hot corner" changes will not
+take effect.
+
+    You can tap the SleepAidNow corner (over the "N" in Names) to instantly
+launch SleepAid.  If you hold your tap for more than one second, the
+MessagePad will immediately go to sleep.  You can tap the HeapStatus corner
+(over the "t" in Assist) to have a small window with a current free heap
+reading.  If you hold your tap for more than one second, SleepAid will
+peform a garbage collection, possibly freeing up more heap space.
+
+< Usage >
+    You can launch the SleepAid application from your Extras drawer or the
+SleepAidNow corner (see above) to perform additional power management
+tasks.
+
+    Tap on "?" to get more info on SleepAid (including registration
+information).
+
+    Tap on "Reboot!" to reset your Newton.
+
+    Tap on "Sleep!" to put your Newton to sleep.  If there are any other
+applications installed that won't let your Newton sleep, SleepAid will give
+you the option to kill their sleep handlers so your Newton can get some
+rest.  SleepAid will attempt to find the owner of the recalcitrant sleep
+handler but may respond with a cryptic name such as "petermain" (the name
+of the Inspector interface).  At this point, your guess is as good as
+ours.
+
+    Tap on "Open Prefs" to open the SleepAid preferences.
+
+    Tap on "Kill Prefs" to remove SleepAid's soup entry.  If you don't plan
+on using SleepAid again, use the "Kill Prefs" button before you remove the
+package from your Newton.
+
+< Technical Information >
+    SleepAid makes use of an InstallScript to install the power monitoring
+routines.  If you use a utility that disables this function, SleepAid will
+not work properly.  If you don't want SleepAid to be active, simply remove
+the package.  SleepAid will remember your preferences even when
+deinstalled, unless you use the "Kill Prefs" option from the application
+before you remove it.
+
+    To conserve battery power, SleepAid only checks the battery status
+every 30 seconds.  If you have set an exceptionally short sleep time (like
+30 seconds) for battery operation, it's POSSIBLE (but not likely) that
+SleepAid may not notice if you plug in the Newt in time to prevent it from
+falling asleep.  If this is really a problem, you can tap the screen after
+plugging your Newt in to keep it awake "a little longer."  We should note
+that we've never actually seen this happen, but it IS theoretically
+possible (sort of like cold fusion or a balanced federal budget).
+
+< Release History>
+1.3  - 3/5/95 - Tuned up the code to use less heap (from 5.9k to 3.9k with
+all features enabled, uses even less when stored internally).
+1.2  - 5/30/94 - Added HeapStatus, Calibrate, and enable/disable for
+SleepAidNow and HeapStatus.
+1.01 - 4/10/94 - Fixed incompatability with some applications using modal
+dialogs.
+1.0  - 4/03/94 - Fixed to work with MP 110 and German MP.  Added
+SleepAidNow.
+0.9b - 2/20/94 - First public release.  Tested on two MessagePads with OS
+v1.11.
+0.6b - 2/09/94 - First semi-stable version.  No more Grip Of Death.
+0.2b - 1/18/94 - You don't even want to know.
+
+< Shareware Registration Information >
+    This application is SHAREWARE.  If you decide to keep it, please
+register it by sending $5.00 to Innovative Computer Solutions; ATTN: Tom
+Collins; 1075 North Miller Road, #142; Scottsdale, Arizona USA 85257-4612. 
+Please include your name, the name of this utility (SleepAid 1.3), type(s)
+of MessagePad(s) owned, address (postal) and preferred e-mail address so we
+can contact you about updates and our other products.  You can also
+register SleepAid on CompuServe for $6.  GO SWREG and register app number
+2674.  PLEASE BE HONEST and register this software if you use it - we can't
+continue to write cool Newton apps if we don't get any support.
+
+< Bugs, Questions, Comments, Suggestions... >
+    Send e-mail to the author, Dan Rowley, at ics@amug.org or 73563,2343 on
+CompuServe.  You can also reach Tom at ics@indirect.com or 75460,2121 on
+CompuServe.  We want to develop Newton applications to fit YOUR needs. 
+Give us feedback, let us know if we're doing it right.  We're here for
+you.
+
+    If you'd like the latest versions of our software, and can't find them
+on CompuServe, America Online, comp.binaries.newton, or the Newton FTP
+sites, contact us via e-mail and we'll send them to you.  Our WWW home page
+is <http://www.indirect.com/ics/newton/> and our ftp directory is
+<ftp://ftp.indirect.com/pub/ics/>
+
+< Our Other Stuff >
+    Check out our other popular Newton utilities, NewtCase, NewtInfo,
+HeapIt, GraffitiPatch, inLine and PrefsPatch.
+
+< Legal Mumbo Jumbo >
+    Newton, MessagePad, Connection Kit and Apple are registered trademarks
+of Apple Computer, Inc.  SleepAid is a trademark of Innovative Computer
+Solutions.
+
+    You can't sell SleepAid, but you can charge a nominal fee for connect
+time or media (not to exceed $5).  Contact the authors if you plan to
+include it in some sort of freeware/shareware collection.
+
+    In using this software, you understand and agree that this software is
+provided "as is" without warranty of any kind.  The authors do not make any
+warranties, either expressed or implied, including but not limited to
+implied warranties of merchantability and fitness for a particular purpose,
+with respect to this software.
+
+    In no event shall the author be liable for any consequential,
+incidental, or special damages whatsoever (including without limitation,
+damages for loss of critical data, loss of profits, interruption of
+business and the like) arising out of the use or inability to use this
+software.
+
+    Have a nice day.  ;-)
+
+Innovative Computer Solutions / (602) 970-1032
+1075 N. Miller Rd. #142 / Scottsdale, Arizona USA 85257
+Dan Rowley/ics@amug.org/CIS: 73563,2343/eWorld&NewtonMail: DRowley
+Tom Collins/ics@indirect.com/CIS: 75460,2121/eWorld&NewtonMail: Innovative

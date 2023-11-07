@@ -1,0 +1,45 @@
+Fixer 1.0 by Dan Rowley, docs by Tom Collins
+Copyright 1995 Innovative Computer Solutions, All Rights Reserved
+
+Quick docs for a quick program:
+
+Dan threw this one together to fix two package related problems.  The first
+is -10401 errors which are caused by packages that are partially installed.
+ The second is -48205 errors when restoring from a backup that contains a
+soup and package of the same name.
+
+You should only run the fixes if you are experiencing the errors.  This
+package isn't a cure all -- it fixes specific problems.
+
+You can contact us at dan@newts.com or tom@newts.com.  Check out our WWW
+home page at <http://www.newts.com/> and FTP files at
+<ftp://ftp.newts.com/pub/>.
+
+< Legal Mumbo Jumbo >
+    Newton, MessagePad, Connection Kit and Apple are registered trademarks
+of Apple Computer, Inc.  ICSFixer is a trademark of Innovative Computer
+Solutions.
+
+    You can't sell ICSFixer, but you can charge a nominal fee for connect
+time or media (not to exceed $5).  Contact the authors if you plan to
+include it in some sort of shareware/freeware collection or bundle it with
+a commercial product.
+
+    In using this software, you understand and agree that this software is
+provided "as is" without warranty of any kind.  The authors do not make any
+warranties, either expressed or implied, including but not limited to
+implied warranties of merchantability and fitness for a particular purpose,
+with respect to this software.
+
+    In no event shall the authors be liable for any consequential,
+incidental, or special damages whatsoever (including, without limitation,
+damages for loss of critical data, loss of profits, interruption of
+business and the like) arising out of the use or inability to use this
+software.
+
+    Have a nice day.  ;-)
+
+Innovative Computer Solutions / (602) 970-1032
+1075 N. Miller Rd. #142 / Scottsdale, Arizona USA 85257
+Dan Rowley/dan@newts.com/CIS: 73563,2343/eWorld&NewtonMail: DRowley
+Tom Collins/tom@newts.com/CIS: 75460,2121/eWorld&NewtonMail: Innovative

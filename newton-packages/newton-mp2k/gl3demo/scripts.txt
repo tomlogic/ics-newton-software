@@ -1,0 +1,568 @@
+The scripts included with this distribution of GestureLaunch 3.0:
+
+***************************************************************************
+SCRIPT : Type text
+VERSION: 1
+PARAM  : Text
+DESCRIPTION:
+
+Typing simulator script
+©1997 Innovative Computer Solutions
+
+Takes the given text and simulates typing it on the keyboard.
+
+
+
+***************************************************************************
+SCRIPT : Command key
+VERSION: 5
+PARAM  : Text
+DESCRIPTION:
+
+Command key simulator script
+©1997 Innovative Computer Solutions
+
+Simulates tapping a character on the keyboard with option modifier keys down.  
+
+The parameter should contain a list of key modifiers (option/opt, command/cmd, shift, or control/ctrl) and the key(s) to press.  For example, 'cmd shift v' would simulate typing v with the command and shift keys held down.
+
+You may optionally include the string 'xxx' (no quotes), which will automatically be replaced with the recognized letter.  For example, 'ctrl opt xxx' would simulate typing the recognized letter with the control and option keys held down.
+
+If you provide no parameter at all, then the recognized letter will by typed with the command key held down.
+
+Be sure to separate modifier keys with spaces, and do not use any extra characters like dashes (ie; don't say 'cmd-v', use 'cmd v').
+
+You may string multiple characters together.  For instance 'cmd opt ab' would type a followed by b, both with the command and option keys down.
+
+This script is not case sensitive.
+
+
+
+
+***************************************************************************
+SCRIPT : Launch Application
+VERSION: 6
+PARAM  : Package
+DESCRIPTION:
+
+'Launch Application' script
+©1997 Innovative Computer Solutions
+
+Launches the package specified in the parameter.  If no package is specified in the parameter, then a picker is opened and scrolled to the first item which begins with the recognized letter.
+
+
+
+***************************************************************************
+SCRIPT : New 'paper' note
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'New paper note' script
+©1997 Innovative Computer Solutions
+
+Creates a new 'paper' note in the notepad, and scrolls to that note.  The notepad will be opened if it is not already open.
+
+
+
+***************************************************************************
+SCRIPT : Scroll to top of note
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Scroll to top of note' script
+©1997 Innovative Computer Solutions
+
+Scrolls to the top of the currently visible note in the notepad.  Useful to get back to the beginning of a long multi-screen note.
+
+
+
+***************************************************************************
+SCRIPT : Scroll notepad to top
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Scroll notepad to top' script
+©1997 Innovative Computer Solutions
+
+Scrolls notepad to the top.
+
+
+
+***************************************************************************
+SCRIPT : Scroll notepad to bottom
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Scroll notepad to bottom' script
+©1997 Innovative Computer Solutions
+
+Scrolls notepad to the bottom.
+
+
+
+***************************************************************************
+SCRIPT : Use Assistant
+VERSION: 1
+PARAM  : Text
+DESCRIPTION:
+
+Assistant script
+©1997 Innovative Computer Solutions
+
+Sends the text provided in the parameter to the Newton Intelligent Assistant.  This is the same as tapping the assist button and entering the text in the assist slip.
+
+
+
+***************************************************************************
+SCRIPT : Use Find
+VERSION: 2
+PARAM  : Text
+DESCRIPTION:
+Find script
+©1997 Innovative Computer Solutions
+
+Initiates a Find operation for the text provided in the parameter.  This is the same as tapping the Find button and entering the text in the Find slip.
+
+
+
+***************************************************************************
+SCRIPT : Put Newton to Sleep
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Sleep' script
+©1997 Innovative Computer Solutions
+
+Puts Newton to Sleep (as if the power switch had been pressed).
+
+
+
+***************************************************************************
+SCRIPT : Reboot Newton
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Reboot' script
+©1997 Innovative Computer Solutions
+
+Restarts the Newton (as if the reset button had been pressed).
+
+
+
+***************************************************************************
+SCRIPT : Toggle Backlight
+VERSION: 2
+PARAM  : Text
+DESCRIPTION:
+
+'Toggle Backlight' script
+©1997 Innovative Computer Solutions
+
+Toggles the Backlight.  You may optionally provide the words 'on' or 'off' in the parameter to force the backlight on or off instead of simply toggling it.
+
+
+
+***************************************************************************
+SCRIPT : Send pending X-Ports
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Send all pending X-Ports' script
+©1997 Innovative Computer Solutions
+
+Opens X-Port and sends all X-Port items waiting in the outbox.
+
+
+
+***************************************************************************
+SCRIPT : Take Screenshot with X-Port
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Take Screenshot with X-Port' script
+©1997 Innovative Computer Solutions
+
+Takes a screenshot and opens the X-Port application.
+
+
+
+***************************************************************************
+SCRIPT : Receive X-Port
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Receive X-Port' script
+©1997 Innovative Computer Solutions
+
+Receive an item using X-Port.
+
+
+
+***************************************************************************
+SCRIPT : Can Do!
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Can Do!' script
+
+©1996 Ron Risley
+Takes selected text and makes a new todo item out of it.  Submitted by Ron Risley RRisley@POBOX.COM.
+
+
+
+***************************************************************************
+SCRIPT : Start NBU/NCU Connection/Dock
+VERSION: 2
+PARAM  : <none>
+DESCRIPTION:
+
+'Dock' script
+©1997 Innovative Computer Solutions
+
+Simulates opening the 'Dock' application and pressing the 'Connect' button.
+
+
+
+***************************************************************************
+SCRIPT : Switch Default Store
+VERSION: 2
+PARAM  : Text
+DESCRIPTION:
+
+'Switch Default Store' script
+©1997 Innovative Computer Solutions
+
+Changes the default store.  The default store is advanced to the 'next' valid store (ie; internal->card 1->card 2->internal...).
+You may optionally provide a parameter which is the name of the store you to which you want to switch.  The name must match exactly, so you should copy it from the card slip.
+
+
+
+***************************************************************************
+SCRIPT : Bring Desktop Buttonbar to front
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Bring Desktop Buttonbar to front' script
+©1997 Innovative Computer Solutions
+
+"Tears off" the NewtCase Desktop ButtonBar so it floats above all other apps.  Desktop must be the backdrop app.
+
+
+
+***************************************************************************
+SCRIPT : Type Date and Time
+VERSION: 4
+PARAM  : Text
+DESCRIPTION:
+
+'Type Date and Time' script
+©1997 Innovative Computer Solutions
+
+Simulates typing the current date and time on the keyboard.  If no parameter is provided, then only the current date and time is typed.
+  You may optionally provide a string parameter which contains the following string tags:
+     $sd - short date (6/30/70), 
+     $md - medium date (June 30, 1970),
+     $ld - long date (Tuesday, June 30, 1970),
+     $t  - time (12:00 pm)
+  GestureLaunch will replace the tags with the current date and/or time, then simulate typing the string.
+
+
+
+***************************************************************************
+SCRIPT : Execute Selected Expression
+VERSION: 2
+PARAM  : <none>
+DESCRIPTION:
+
+'Execute Selected Expression' script
+©1997 Innovative Computer Solutions
+
+Compiles and executes the currently selected (Newtonscript) text.
+
+
+
+***************************************************************************
+SCRIPT : Rotate Screen
+VERSION: 3
+PARAM  : Text
+DESCRIPTION:
+
+'Rotate screen' script
+©1997 Innovative Computer Solutions
+
+Changes the screen orientation.  Same function as the 'rotate' button in the extras drawer.  You may optionally provide one of the following parameters:
+portrait - switch to portrait orientation
+portraitflip - switch to portrait orientation (flipped)
+landscape - switch to landscape orientation
+landscapeflip - switch to landscape orientation (flipped)
+
+
+
+***************************************************************************
+SCRIPT : New 'checklist' note
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'New Checklist note' script
+©1997 Innovative Computer Solutions
+
+Creates a new 'checklist' note in the notepad, and scrolls to that note.  The notepad will be opened if it is not already open.
+
+
+
+***************************************************************************
+SCRIPT : New 'outline' note
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'New Outline note' script
+©1997 Innovative Computer Solutions
+
+Creates a new 'outline' note in the notepad, and scrolls to that note.  The notepad will be opened if it is not already open.
+
+
+
+***************************************************************************
+SCRIPT : Display heap stats
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Heap Stats' script
+©1997 Innovative Computer Solutions
+
+Displays current heap statistics.
+
+
+
+***************************************************************************
+SCRIPT : Display Recognized Gesture
+VERSION: 2
+PARAM  : <none>
+DESCRIPTION:
+
+'Display Recognized Gesture' script
+©1997 Innovative Computer Solutions
+
+briefly flashes the recognized gesture on-screen - useful for debugging purposes, and for user training.
+
+
+
+***************************************************************************
+SCRIPT : New 'recording' note
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'New recording note' script
+©1997 Innovative Computer Solutions
+
+Creates a new 'recording' note in the notepad, and scrolls to that note.  The notepad will be opened if it is not already open.
+
+
+
+***************************************************************************
+SCRIPT : Scroll to next note
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Scroll to next note' script
+©1997 Innovative Computer Solutions
+
+Scrolls to the next note in the notepad.  Useful for quickly getting past long multi-screen notes.
+
+
+
+***************************************************************************
+SCRIPT : New 'recording' note w/Autostart
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'New paper note with Autostart' script
+©1997 Innovative Computer Solutions
+
+Creates a new 'recording' note in the notepad, and scrolls to that note.  The notepad will be opened if it is not already open.  Recording will start automatically.
+
+
+
+***************************************************************************
+SCRIPT : Scroll to previous note
+VERSION: 1
+PARAM  : <none>
+DESCRIPTION:
+
+'Scroll to previous note' script
+©1997 Innovative Computer Solutions
+
+Scrolls to the previous note in the notepad.  Useful for quickly getting past long multi-screen notes.
+
+
+
+***************************************************************************
+SCRIPT : Open Names app to...
+VERSION: 5
+PARAM  : Text
+DESCRIPTION:
+
+'Open Names app to...' script
+©1997 Innovative Computer Solutions
+
+Opens the names/contacts application if it is not already open.  If you supply a parameter, the names app will be scrolled to the first name card which matches the parameter.
+If you do not supply a parameter, the recognized letter will be used as the search key to scroll to a name card.
+
+
+
+***************************************************************************
+SCRIPT : Open todo list to...
+VERSION: 4
+PARAM  : Text
+DESCRIPTION:
+
+'Open Todo list to...' script
+©1997 Innovative Computer Solutions
+
+Opens the Todo list if it is not already open.  You may supply a number 'n' as a parameter, and the todo list for 'n' days in the future will be displayed.
+If you do not provide a parameter, then the recognized number (if any) will be used.  If there is no parameter or there is no valid recognized number, today's todo list will be displayed.
+
+
+
+***************************************************************************
+SCRIPT : Open Agenda to...
+VERSION: 4
+PARAM  : Text
+DESCRIPTION:
+
+'Open Agenda to...' script
+©1997 Innovative Computer Solutions
+
+Opens the Dates Agenda if it is not already open.  You may supply a number 'n' as a parameter, and the Agenda for 'n' days in the future will be displayed.
+If you do not provide a parameter, then the recognized number (if any) will be used.  If there is no parameter or there is no valid recognized number, today's Agenda will be displayed.
+
+
+
+***************************************************************************
+SCRIPT : Launch NSBasic Application
+VERSION: 1
+PARAM  : Text
+DESCRIPTION:
+
+'Launch NSbasic Application' script
+©1997 Innovative Computer Solutions
+
+Launches the NSBasic application named in the parameter.  If the NSBasic application has been turned into a package, use should use 'Launch Application' instead.
+
+
+
+***************************************************************************
+SCRIPT : Display storage stats
+VERSION: 4
+PARAM  : <none>
+DESCRIPTION:
+
+'Storage Stats' script
+©1997 Innovative Computer Solutions
+
+Displays current storage statistics.
+
+
+
+***************************************************************************
+SCRIPT : Open Outbox
+VERSION: 2
+PARAM  : <none>
+DESCRIPTION:
+
+'Open Outbox' script
+©1997 Innovative Computer Solutions
+
+Opens the IOBox application with the Outbox visible (the IOBox usually opens to the Inbox).
+
+
+
+***************************************************************************
+SCRIPT : Pop up Gesture List
+VERSION: 9
+PARAM  : <none>
+DESCRIPTION:
+
+'Popup Gesture List' script
+©1997 Innovative Computer Solutions
+
+Displays a popup menu of all gestures defined for the given icon, and executes the one the user chooses.
+
+Note that the script is executed with the parameter with which it was defined, and the recognized gesture is changed to match as well.
+
+In other words, the gesture you select from the menu is executed as if you had written that gesture in the first place.
+
+
+
+
+
+***************************************************************************
+SCRIPT : New Meeting on...
+VERSION: 2
+PARAM  : Text
+DESCRIPTION:
+
+'New Meeting on...' script
+©1997 Innovative Computer Solutions
+
+Opens the Dates application if it is not already open, and creates a new appointment.  You may supply a number 'n' as a parameter, and an appointment 'n' days in the future will be created.
+If you do not provide a parameter, then the recognized number (if any) will be used.  If there is no parameter or there is no valid recognized number, then an appointment will be created for today.
+
+
+
+***************************************************************************
+SCRIPT : New Todo on...
+VERSION: 1
+PARAM  : Text
+DESCRIPTION:
+
+'New Todo on...' script
+©1997 Innovative Computer Solutions
+
+Opens the Dates application if it is not already open, and creates a new Todo.  You may supply a number 'n' as a parameter, and an Todo 'n' days in the future will be created.
+If you do not provide a parameter, then the recognized number (if any) will be used.  If there is no parameter or there is no valid recognized number, then an Todo will be created for today.
+
+
+
+***************************************************************************
+SCRIPT : Numbers Only
+VERSION: 2
+PARAM  : <none>
+DESCRIPTION:
+
+'Numbers Only' script
+©1997 Innovative Computer Solutions
+
+Use this script as a BeforeScript to filter commonly mis-regnized letters into their similar numbers.  For example, i and l would become the number 1, and the letter o would become zero.
+
+
+
+
+***************************************************************************
+SCRIPT : Pop up Text Picker
+VERSION: 3
+PARAM  : List
+DESCRIPTION:
+
+'Popup Text Picker' script
+©1997 Innovative Computer Solutions
+
+Displays an editable popup menu which contains 'macro' text items.  The selected item is pasted at the current text insertion point. 
+

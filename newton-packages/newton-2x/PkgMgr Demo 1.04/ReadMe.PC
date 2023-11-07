@@ -1,0 +1,162 @@
+NewtCase Package Manager    
+Demo Version
+(C)1995-6 Innovative Computer Solutions, All Rights Reserved
+Written by Dan Rowley, Documentation by Tom Collins
+
+Overview
+--------
+In addition to adding new features to the Extras Drawer, the Package
+Manager provides an alternate interface for managing your packages.  When
+installed, your Extras Drawer lets you freeze and thaw packages in groups
+and launch frozen packages.  With the Package Manager installed, you can
+display more packages, select groups of packages easier, and show detailed
+information on every package in the Extras Drawer.
+
+This is a Demo version of the Package Manager.  It will expire 30-days
+after you install it.  Package Manager is part of the NewtCase 3.0 utility
+suite distributed by PelicanWare.  For more information on NewtCase, call
+503/221-1148, e-mail pelican@newts.com, or go to
+<http://www.newts.com/newton/nc30.html>.
+
+Freezing and Thawing
+--------------------
+A key component of NewtCase is the ability to freeze and thaw packages. 
+This feature is a part of the Newton OS that must be enabled through a
+program like NewtCase.
+
+For users of previous versions of NewtCase, freezing is similar to the
+archives in v1.x and quick archives in v2.x.
+
+For those of you who are new to NewtCase, here's an overview of freezing
+and why it's important.
+
+Freezing a package is the same as taking it off-line or disabling it.  When
+it's frozen, any features it adds to the Newton (e.g., Find, Assist,
+Printing) are not available.  The two main benefits of freezing packages
+are that they no longer use any heap space, and they can't conflict with
+other software on your Newton.
+
+Without NewtCase, frozen packages had to be thawed (re-activated) before
+you could use them.  With NewtCase installed though, you can use frozen
+packages as if they were active.  Tap on a frozen package in the Extras
+Drawer or the QuickPicker, and NewtCase will thaw it, launch it, and then
+re-freeze it when you're done.
+
+So, if you have packages that you rarely use, packages that use a lot of
+heap, or packages that conflict with each other, you should consider
+freezing them.
+
+Installation
+------------
+You should install the Package Manager on your Internal store.
+
+Extras Drawer Enhancements
+
+When the Package Manager is installed, it affects the behavior of the
+Extras Drawer.  
+
+*    Enables the freeze/thaw feature of the Newton OS (see Freezing section
+for more information).
+
+*    Frozen packages will appear grayed out with a mini-snowflake instead
+of being replaced by a snowflake.
+
+*    The Extras Drawer will launch frozen packages instead of thawing them
+when tapped.
+
+*    You can freeze or thaw a group of packages by selecting them and
+choosing "Freeze/Thaw" from the routing menu.
+
+*    Note that when freezing a group of packages it may take some time for
+the icons to change in the Extras Drawer.
+
+*    Frozen packages now remember their folder setting when thawed.
+
+Instructions
+------------
+When you first launch the Package Manager, it will display all packages on
+all stores.  Frozen packages will appear in a bold italic typeface
+
+Scroll the list with the arrows at the bottom of the screen.  Select and
+deselect packages by tapping on them.  You can select a range of packages
+by tapping and dragging from the first package to the last package in the
+range.  Even though the packages may not immediately highlight, the Package
+Manager remembers what you have selected and will highlight the packages as
+processing time allows.  You can also use the None and All buttons to clear
+the selection or select all packages in the current list.
+
+Restricting the package list
+----------------------------
+Use the folder tab at the top of the list to show packages in a particular
+set or on a particular store.
+
+Use the Show button to limit the list based on whether a package is frozen
+or active.
+
+Routing
+-------
+All routing options are performed on the currently selected package(s). 
+
+PLEASE NOTE:  This can include packages in the list that have scrolled off
+the screen.  This differs from the Extras Drawer which clears the selection
+when you scroll to a new page.
+
+The top half of the Routing menu lists available transports for your
+package.  The MessagePad has two built-in transports, Beam Packages and
+Mail.  If you have any additional transports installed that support
+packages, they will appear in the list with Beam and Mail.  Tapping on a
+routing option will transport the selected packages.
+
+Freeze allows you to deinstall a package without removing it from your
+MessagePad.
+
+Thaw is the opposite of Freeze.  It will take a frozen package and
+reinstall it.
+
+Delete will permanently remove the package from your Newton.
+
+Get Info provides detailed information on the currently selected package
+or, if a group of packages are selected, summary information for the group.
+ When getting info on a single package, you can set or clear the backup
+flag that determines whether or not a package is backed up.  A check mark
+in the box indicates that the package is included in backups.  If you're
+missing packages in your backups, verify that this flag has been set.
+
+Filing
+------
+All filing options are performed on the currently selected package(s).
+
+The filing slip lets you set the current folder for the selected packages. 
+In addition, you can create a new folder, or edit the current folder.  You
+can also use the filing slip to move a package to another store.
+
+Information/Help
+----------------
+About displays information about NewtCase Package Manager (NCPM).
+
+Show/hide package sizes allows you to display package sizes in the package
+list.  This will slow the list down a little.
+
+Use small/large list font allows you to choose the font size for the
+package list.
+
+Install package to <storename> temporarily changes the default store to the
+one you selected and launches the Connect package to download a package
+from your computer.
+
+Technical Information
+---------------------
+See the introduction to freezing and thawing at the beginning of the
+manual.
+
+If you remove Package Manager, you will lose the enhancements it makes to
+the Extras Drawer.
+
+Without Package Manager, the Newton OS will put a thawed package in its
+original folder, even if you change its location while frozen.
+
+
+Innovative Computer Solutions / (602) 970-1032
+1075 N. Miller Rd. #142 / Scottsdale, Arizona USA 85257-4612
+Dan Rowley/dan@newts.com/CIS: 74777,2620
+Tom Collins/dan@newts.com/CIS: 75460,2121
